@@ -1,5 +1,5 @@
 var qbootutilsinstallervar = document.createElement('script');
 
-qbootutilsinstallervar.setAttribute('src','http://qbootutils.pyronode.repl.co/script.js');
+qbootutilsinstallervar.setAttribute('src','https://brodyking.github.io/netbox-packages/qbootutils/script.js');
 
 document.head.appendChild(qbootutilsinstallervar);
