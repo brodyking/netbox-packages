@@ -39,7 +39,7 @@ function nmCreate() {
   
   link.type = 'text/css';
   
-  link.href = 'https://netmanager.pyronode.repl.co/source.css'; 
+  link.href = 'https://brodyking.github.io/netbox-packages/netmanager/source.css'; 
   
   // Get HTML head element to append 
   // link element to it 
