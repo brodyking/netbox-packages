@@ -6,7 +6,7 @@ link.rel = 'stylesheet';
 
 link.type = 'text/css';
 
-link.href = 'https://tsthemes.pyronode.repl.co/tsthemes.css'; 
+link.href = 'https://brodyking.github.io/netbox-packages/tsethemes/tsthemes.css'; 
 
 // Get HTML head element to append 
 // link element to it 
