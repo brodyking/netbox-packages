@@ -38,6 +38,7 @@ function pmBrowse() {
   <termhead><u style="float: left" onclick="termreturn()">return</u>pmb</termhead>
   <ul style="list-style: none;margin: 0px;">
   <li>netmanager <highlight>a start menu with ts theme</highlight></li>
+  <li>papernb <highlight>get custom wallpapers</highlight>
   <li>qbootutils <highlight>all qboot utilities</highlight></li>
   <li>tseport <highlight>tseditor ported</highlight></li>
   <li>tsethemes <highlight>dependencies for tseditor</highlight></li>
