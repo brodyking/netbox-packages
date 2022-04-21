@@ -1,2 +1,8 @@
 # netbox-packages
-A package repository for netbox
+A package manager and repository for netbox packages.
+
+## List A-Z
+- netmanager
+- qbootutils
+- tseport
+- tsethemes
