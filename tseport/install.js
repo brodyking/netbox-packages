@@ -1,1 +1,1 @@
-includeJS('https://tseport.pyronode.repl.co/script.js')
+includeJS('https://brodyking.github.io/netbox-packages/tseport/script.js')
