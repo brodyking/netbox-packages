@@ -1,1 +1,1 @@
-includeJS('https://netmanager.pyronode.repl.co/source.js');
+includeJS('https://brodyking.github.io/netbox-packages/netmanager/source.js');
