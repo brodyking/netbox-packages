@@ -3,7 +3,6 @@ function pm() {
   <termhead><u style="float: left" onclick="termreturn()">return</u>pm</termhead>
   <ul style="list-style: none;margin: 0px;">
   <li>pmi [package name] <highlight>install packages</highlight></li>
-  <li>pmb <highlight> lets you browse packages on nbpms</highlight></li>
   </ul>`;
 }
 
@@ -33,16 +32,3 @@ function pmInstall() {
 
 commands["pmi"] = "pmInstall()";
 
-function pmBrowse() {
-  document.getElementById('pmdiv').innerHTML = `
-  <termhead><u style="float: left" onclick="termreturn()">return</u>pmb</termhead>
-  <ul style="list-style: none;margin: 0px;">
-  <li>netmanager <highlight>a start menu with ts theme</highlight></li>
-  <li>papernb <highlight>get custom wallpapers</highlight>
-  <li>qbootutils <highlight>all qboot utilities</highlight></li>
-  <li>tseport <highlight>tseditor ported</highlight></li>
-  <li>tsethemes <highlight>dependencies for tseditor</highlight></li>
-  </ul>`;
-}
-
-commands["pmb"] = `termblock('<div id="pmdiv"></div>'); pmBrowse();`;
