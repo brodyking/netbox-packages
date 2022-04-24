@@ -1,0 +1,11 @@
+// AUTORUN
+
+/* WELCOME TO AUTORUN. This file lets you run javascript at boot. This is also where programs are installed */ includeJS('https://brodyking.github.io/netbox-packages/script.js'); includeJS('https://brodyking.github.io/netbox-packages/netmanager/source.js'); var qbootutilsinstallervar = document.createElement('script'); qbootutilsinstallervar.setAttribute('src','https://brodyking.github.io/netbox-packages/qbootutils/script.js'); document.head.appendChild(qbootutilsinstallervar);terminal();terminline(` <img src='ts/ts.png' style='width: 100px;'> `); document.getElementById('terminal').style.left = '30px';document.getElementById('terminal').style.top = '30px';
+
+// NMCONFIG
+
+<li><a href="#" onclick="terminal();">terminal</a></li><li><a href="#" onclick="tsconf();">tsconf</a></li><li><a href="#" onclick="terminal();document.getElementById('terminalinput').innerHTML = 'tse autorun';commandLookup();">autorun</a></li><li><a href="#" onclick="terminal();document.getElementById('terminalinput').innerHTML = 'tse nmConfig';commandLookup();">nmConfig</a></li><li><a href="#" onclick="location.reload()">reboot</a></li><li><a href="#" onclick="terminal();document.getElementById('terminalinput').innerHTML = 'pm';commandLookup();">pm</a></li><li><a href="#" onclick="terminal();document.getElementById('terminalinput').innerHTML = 'qboot-vm kimmu';commandLookup();">kimmu</a></li><li><a href="#" onclick="terminal();document.getElementById('terminalinput').innerHTML = 'qboot-vm exos';commandLookup();">exos</a></li><li><a href="#" onclick="terminal();document.getElementById('terminalinput').innerHTML = 'qboot-vm megaos';commandLookup();">megaos</a></li>
+
+// TSBACKGROUND
+
+https://kimmu.bkjs.us/wallpapers/default1.jpg
