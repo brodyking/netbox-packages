@@ -1,0 +1,151 @@
+
+/* powerline */
+
+
+.brewPowerline {
+	font-size: 0.8em;
+	list-style: none;
+	padding: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: box;
+	display: flex;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-o-box-pack: justify;
+	-ms-flex-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-box-lines: single;
+	-moz-box-lines: single;
+	-o-box-lines: single;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	height: 1.5em;
+	line-height: 1.5em;
+	/* center bg-color */
+	background-color: #3c3836;
+	position: absolute;
+	bottom: 1;
+	left: 0;
+	right: 0;
+	margin: 0;
+  }
+  .brewPowerline a {
+	text-decoration: none;
+  }
+  .brewPowerline .left,
+  .brewPowerline .right {
+	white-space: nowrap;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: box;
+	display: flex;
+  }
+  
+  /* size transition */
+  .brewPowerline .shrinkable {
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	max-width: 2em;
+	-webkit-transition: max-width 1s ease-in-out;
+	-moz-transition: max-width 1s ease-in-out;
+	-o-transition: max-width 1s ease-in-out;
+	-ms-transition: max-width 1s ease-in-out;
+	transition: max-width 1s ease-in-out;
+  }
+  .brewPowerline .shrinkable:hover {
+	max-width: 1000px;
+  }
+  .brewPowerline .center {
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+  }
+  
+  /* arrows */
+  .brewPowerline .left .endsection {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-top: 0.8em solid transparent;
+	border-bottom: 0.8em solid transparent;
+	border-left: 0.8em solid;
+  }
+  .brewPowerline .right .endsection {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-top: 0.8em solid transparent;
+	border-right: 0.8em solid;
+	border-bottom: 0.8em solid transparent;
+  }
+  .brewPowerline div:not(.endsection) {
+	padding: 0 14px;
+  }
+  
+  
+  
+  /* coloring */
+  /* TODO: UGH redo markup for easier targeting */
+  .brewPowerline .left div:first-child {
+	background-color: #504945;
+  }
+  .brewPowerline .left div:first-child+.endsection {
+	border-left-color: #504945;
+	background-color: #fabd2f;
+  }
+  .brewPowerline .left div:first-child a {
+	color: #fabd2f;
+  font-weight: bold;
+  }
+  .brewPowerline .left div:first-child a:first-child {
+	color: #fabd2f;
+  }
+  .brewPowerline .left div {
+	background-color: #fabd2f;
+  }
+  .brewPowerline .left div+.endsection {
+	border-left-color: #fabd2f;
+	background-color: #3c3836;
+  }
+  .brewPowerline .left div a {
+	color: #21272f;
+  }
+  .brewPowerline .center {
+	background-color: #3c3836;
+  }
+  .brewPowerline .center a {
+	color: #fabd2f;
+  }
+  .brewPowerline .right .endsection:first-child {
+	border-right-color: #fabd2f;
+  }
+  .brewPowerline .right div:nth-child(2) {
+	background-color: #fabd2f;
+  }
+  .brewPowerline .right div:nth-child(2) a {
+	color: #21272f;
+  }
+  .brewPowerline .right div:nth-child(2)+.endsection {
+	background-color: #fabd2f;
+	border-right-color: #504945;
+  }
+  .brewPowerline .right div:nth-child(2)+.endsection+div {
+	background-color: #504945;
+  }
+  .brewPowerline .right div:nth-child(2)+.endsection+div a {
+	color: #fabd2f;
+  }
+
+#brewBodyConfig highlight {
+  color: #e64d2f;
+}
